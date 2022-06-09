@@ -59,7 +59,12 @@ public @interface ApiVersion {
         /**
          * This target version specifies that the plugin was made with 1.18+ versions in mind.
          */
-        v1_18("1.18");
+        v1_18("1.18"),
+
+        /**
+         * This target version specifies that the plugin was made with 1.19+ versions in mind.
+         */
+        v1_19("1.19");
 
         private final String version;
 

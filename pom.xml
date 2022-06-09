@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
 
     <name>Plugin Annotations</name>
-    <url>http://www.spigotmc.org/</url>
+    <url>https://www.spigotmc.org/</url>
     <description>A annotation-based compile time plugin.yml generator.</description>
 
     <properties>
