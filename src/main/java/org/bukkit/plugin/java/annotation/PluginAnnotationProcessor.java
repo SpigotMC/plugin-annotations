@@ -233,8 +233,8 @@ public class PluginAnnotationProcessor extends AbstractProcessor {
         // api-version
         if ( mainPluginType.getAnnotation( ApiVersion.class ) != null ) {
             ApiVersion apiVersion = mainPluginType.getAnnotation( ApiVersion.class );
-            if ( apiVersion.value() != ApiVersion.Target.DEFAULT ) {
-                yml.put( "api-version", apiVersion.value().getVersion() );
+            if ( apiVersion.value() != null ) {
+                yml.put( "api-version", apiVersion.value() );
             }
         }
 
